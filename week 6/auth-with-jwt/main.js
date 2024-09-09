@@ -61,7 +61,7 @@ app.post('/login', async (req, res) => {
     expiresIn: 86400 // expires in 24 hours
   });
   
-  res.status(200).send({ auth: true, token: token });
+    
 });
 
 // Protected route
